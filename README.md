@@ -25,12 +25,19 @@ Download the release package designed specifically for your operating system:
 
 Comprehensive step-by-step installation, authentication, and feature manuals are available below:
 
+- 📖 **[Complete Command Reference (COMMANDS.md)](./COMMANDS.md)**
+  - Comprehensive reference of all CLI commands and parameters.
+  - Golden Rule of Navigation: Double Enter (`2x Enter`) instant menu return.
+  - Farming suites (`omega_farm`, `db_story_all`, `kagi`, `eza_run`).
+  - Mission batch claiming (`mission`, `auto_mission`).
+  - Team builder (`smart_team`), Ultimate Clash (`clash`), and box cleaner (`clean_box`).
+  - APEX Web GUI feature walkthrough and 1-click workflows.
+
 - 🖥️ **[Desktop Guide (Windows 10/11 & Linux x64)](./README_DESKTOP.md)**
   - Windows double-click setup & Smart App Control bypass.
   - Linux launchers (`launch_linux.sh` & `start_gui.sh`).
   - Discord OAuth verification & Google Auto-Login via Chrome DevTools Protocol (CDP).
-  - CLI commands reference & Double-Enter rule.
-  - Interactive APEX Web GUI walkthrough (1-Click Awakening, 100% Hidden Potential, Stamina Refill modal).
+  - Interactive APEX Web GUI walkthrough.
 
 - 📱 **[Mobile Guide (Android Termux & Yoda Auth Helper APK)](./README_MOBILE.md)**
   - Installing Termux, Termux:API, and `yoda-auth-helper.apk`.
@@ -53,3 +60,4 @@ Comprehensive step-by-step installation, authentication, and feature manuals are
 ## 💬 Community & Support
 
 Join the official Yoda Community on Discord for roles, news, updates, and discussion.
+

@@ -126,21 +126,12 @@ You don't have to manage complex card IDs in the command line on a tiny keyboard
 
 ## ⌨️ Fast CLI Reference & Tips
 
-All commands are case-insensitive:
+Yoda Bot provides a complete suite of automated commands for mobile farming, missions, and team optimization.
 
-- `info`: Check current Dragon Stones, Zeni, Stamina, and active deck.
-- `help`: Full list of CLI commands and arguments.
-- `omega_farm`: Complete master farming suite (Quests, Stories, Events).
-- `db_story_all`: Clears all Dragon Ball Story stages for easy Dragon Stones.
-- `kagi`: Portal of Memories farmer. Accepts multiple stage IDs (e.g. `kagi 101001, 101002 101003`).
-- `mission` / `auto_mission`: Automatically claim all completed mission rewards.
-- `smart_team`: AI-generated team builder optimized for whatever stage you are tackling.
-- `deck_change`: Manage your 6 team slots.
-- `eza_run`: Auto-farm any Extreme Z-Battle.
-- `clash`: Complete all stages of Ultimate Clash (Battlefield).
+📖 **[Click here for the Full Command Reference (COMMANDS.md)](./COMMANDS.md)**
 
 ### 💡 The 2x Enter Rule
-If you are inside a command loop or wish to clear your phone screen back to the main menu:
+If you are inside a command loop, farming process, or wish to clear your phone screen back to the main menu:
 - Press **Enter** once (prompts to confirm).
 - Press **Enter** again: immediately clears the Termux terminal and shows the clean main menu.
 
@@ -154,3 +145,4 @@ If you are inside a command loop or wish to clear your phone screen back to the 
   - **A:** Yes. Make sure to pull down your Android notification drawer and tap **"Acquire Wakelock"** in Termux so Android doesn't put Termux to sleep when you switch to your browser.
 - **Q: Can I use both the CLI and Web GUI at the same time?**
   - **A:** Yes! The Web GUI runs in a background thread, leaving the Termux CLI responsive for commands.
+

@@ -107,28 +107,16 @@ Traditional bots often fail or crash during Google login due to outdated ChromeD
 
 ---
 
-## ⌨️ Main CLI Commands & The 2x Enter Rule
+## ⌨️ CLI Commands Reference
 
-All Yoda Bot CLI commands are **case-insensitive** and use standard `snake_case`.
+Yoda Bot features an extensive suite of automated commands for farming, mission completion, team building, and box management.
 
-| Command | Description |
-| :--- | :--- |
-| `info` | Displays comprehensive account status: Rank, Dragon Stones, Zeni, Stamina, Card Box capacity, and active Deck. |
-| `help` | Prints detailed manual and usage instructions for all available commands. |
-| `omega_farm` | The master automation runner. Sequentially farms Quest Mode, Story Events, Medals, and Missions. |
-| `db_story_all` | Clears all available Dragon Ball Story stages and sub-difficulties, claiming all first-clear Dragon Stones. |
-| `kagi` | **Portal of Memories** farmer. Supports individual or multiple stage IDs separated by spaces or commas (e.g. `kagi 101001, 101002 101003`). |
-| `mission` / `auto_mission` | Automatically scans, completes, and claims all pending daily, event, and Z-mission rewards. |
-| `smart_team` | AI-driven team builder: analyzes stage requirements, enemy types, and category boosts to assemble optimal teams. |
-| `deck_change` | Switch active team slots, replace leaders, or customize card slots. |
-| `eza_run` / `eza` | Automatically farms Extreme Z-Battle stages from Level 1 up to Level 30+ for Dragon Stones, Kais, and Awakening Medals. |
-| `clash` | Fully automates Ultimate Clash (Battlefield), selecting optimal mono/category teams per boss. |
-| `gui` | Spawns the interactive APEX Web GUI in your browser. |
+📖 **[Click here for the Full Command Reference (COMMANDS.md)](./COMMANDS.md)**
 
 ### 💡 The 2x Enter Rule (Quick Menu Return)
-Whenever you are inside a command or sub-prompt and wish to exit or reset:
+Whenever you are inside a command, farming loop, or sub-prompt and wish to exit or reset:
 - Press **Enter** once: the bot displays `[Press Enter again to clear screen & return to menu]`.
-- Press **Enter** a second time: the bot instantly wipes the screen buffer and displays the clean main menu.
+- Press **Enter** a second time: the bot instantly clears the screen buffer and displays the clean main menu.
 
 ---
 
@@ -167,3 +155,4 @@ YODA $ gui
   - Ensure you ran `Launch_Windows.py` using standard Windows Python launcher. It unblocks extracted files automatically.
 - **Need help or want to join the community?**
   - Join our official Discord server for updates, guides, and support!
+
