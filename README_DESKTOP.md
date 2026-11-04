@@ -33,7 +33,7 @@ The Windows release package is fully self-contained and pre-configured to elimin
 ### 🛡️ What `Launch_Windows.py` Does Automatically For You:
 - **Smart App Control & MOTW Bypass**: Strips Windows Mark-of-the-Web (`Zone.Identifier`) metadata from all extracted files to prevent Windows 11 Smart App Control from falsely blocking Python scripts.
 - **Legacy Python Cleaner**: Detects and cleanly uninstalls outdated Python 3.9 installations if present.
-- **Automatic Python 3.12 Runtime**: Checks if Python 3.12 64-bit is available on your machine; if missing, it downloads and installs official Python 3.12.3 silently.
+- **Automatic Python 3.13 Runtime**: Checks if Python 3.13 / 3.12 64-bit is available on your machine; if missing, it downloads and installs official Python 3.13 silently.
 - **Self-Healing Virtual Environment**: Generates an isolated `venv/` and installs all necessary dependencies automatically using `python.exe -m pip`. You never need to manage `pip` manually.
 
 ---

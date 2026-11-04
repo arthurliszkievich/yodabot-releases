@@ -48,7 +48,7 @@ In any interactive prompt, farming loop, or configuration submenu:
 | **`db_story_all`** | *none* | VIP Tier | Scans and clears every incomplete Dragon Ball Story event and sub-difficulty in one go, claiming hundreds of first-clear Dragon Stones. |
 | **`kagi`** | `<stage_id(s)>` | Free / Standard | **Portal of Memories** automated farmer. Uses Story, Challenge, or Z-Battle Keys to farm stages that are currently closed in regular rotation. |
 | **`eza_run`** | `<stage_id>` `[target_lv]` | Free / Standard | Auto-climbs Extreme Z-Battle stages sequentially from Level 1 up to Level 30 (or custom target) for Dragon Stones, Grand Kais, and Awakening Medals. |
-| **`stage`** | `<stage_id> [diff]` | Free / Standard | Manually farms a specific stage by ID with specified difficulty (1=Normal, 2=Hard, 3=Z-Hard, 4=Super, 5=Super2, 6=Super3). |
+| **`stage`** | `<stage_id> [times] [diff]` | Free / Standard | Farms a specific stage for `[times]` repetitions (default: 1) with optional difficulty. Example: `stage 575001 5` to run 5 times, displaying progress `Run X/N`. |
 
 ### 🗝️ Portal of Memories (`kagi`) Quick Guide
 
