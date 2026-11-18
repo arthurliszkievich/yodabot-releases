@@ -49,6 +49,7 @@ In any interactive prompt, farming loop, or configuration submenu:
 | **`kagi`** | `<stage_id(s)>` | Free / Standard | **Portal of Memories** automated farmer. Uses Story, Challenge, or Z-Battle Keys to farm stages that are currently closed in regular rotation. |
 | **`eza_run`** | `<stage_id>` `[target_lv]` | Free / Standard | Auto-climbs Extreme Z-Battle stages sequentially from Level 1 up to Level 30 (or custom target) for Dragon Stones, Grand Kais, and Awakening Medals. |
 | **`stage`** | `<stage_id> [times] [diff]` | Free / Standard | Farms a specific stage for `[times]` repetitions (default: 1) with optional difficulty. Example: `stage 575001 5` to run 5 times, displaying progress `Run X/N`. |
+| **`auto_ds`** | `[on\|off\|status]` | Free / Standard | Toggles persistent **Auto-Refill Stamina (Dragon Stone)** mode. When enabled, automatically spends 1 DS after Aged Meat runs out (stops automatically if DS reaches 0). |
 
 ### 🗝️ Portal of Memories (`kagi`) Quick Guide
 
