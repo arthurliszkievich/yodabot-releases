@@ -1,4 +1,4 @@
-# 📖 Yoda Bot v2.0 — Complete Command Reference Manual
+# 📖 Yoda Bot v2.1.0 — Complete Command Reference Manual
 ### The Definitive CLI & Web GUI Operating Manual for Dokkan Battle Automation
 
 ---
