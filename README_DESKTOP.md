@@ -1,11 +1,11 @@
-# ⚡ Yoda Bot v2.0 — Desktop Official User Guide
+# ⚡ Yoda Bot v2.1.0 — Desktop Official User Guide
 ### High-Performance Dokkan Battle Automation Engine for Windows 10/11 & Linux x64
 
 ---
 
 ## 🌟 Overview
 
-**Yoda Bot v2.0** is the next-generation, high-speed automation engine for *Dragon Ball Z: Dokkan Battle* (Global & Japan). Rebuilt from the ground up with a standardized interactive CLI, native Chrome DevTools Protocol (CDP) Google auto-login, and a browser-based APEX Web GUI, Yoda Bot offers full control over your box, farming, and card upgrades without manual friction.
+**Yoda Bot v2.1.0** is the next-generation, high-speed automation engine for *Dragon Ball Z: Dokkan Battle* (Global & Japan). Rebuilt from the ground up with a standardized interactive CLI, native Chrome DevTools Protocol (CDP) Google auto-login, and a browser-based APEX Web GUI, Yoda Bot offers full control over your box, farming, and card upgrades without manual friction.
 
 ### Key Highlights
 - **Universal Multi-Platform Core**: Clean, standalone native builds tailored specifically for Windows 10/11 and Linux x64.
@@ -20,7 +20,7 @@
 The Windows release package is fully self-contained and pre-configured to eliminate all common Windows 11 Smart App Control (SAC) and execution policy issues.
 
 ### 1. Extraction
-1. Download `yodabot_2.0_windows.zip`.
+1. Download `yodabot_2.1.0_windows.zip`.
 2. Extract the archive into any folder of your choice (e.g., `C:\YodaBot\` or `Desktop\YodaBot\`).
    > *Note: Avoid extracting directly into root `C:\` or system folders requiring elevated Administrator permissions.*
 
@@ -44,7 +44,7 @@ The Linux release package features native Cython-compiled binaries (`.so`) optim
 
 ### 1. Extraction
 ```bash
-unzip yodabot_2.0_linux.zip -d ~/yodabot
+unzip yodabot_2.1.0_linux.zip -d ~/yodabot
 cd ~/yodabot
 ```
 
