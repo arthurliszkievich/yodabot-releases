@@ -1,11 +1,11 @@
-# 📱 Yoda Bot v2.0 — Android / Mobile Official Guide
+# 📱 Yoda Bot v2.1.0 — Android / Mobile Official Guide
 ### Complete Dokkan Battle Automation Engine for Android (Termux ARM64) & `yoda-auth-helper.apk`
 
 ---
 
 ## 🌟 Overview
 
-**Yoda Bot v2.0 Mobile** brings the complete desktop-grade Dokkan Battle automation suite directly to your Android smartphone or tablet. By leveraging the power of **Termux (ARM64)** and our dedicated **`yoda-auth-helper.apk`** companion app, you can farm Dragon Stones, 100% Hidden Potential cards, Dokkan Awaken units, and clean your box on the go—with zero PC required!
+**Yoda Bot v2.1.0 Mobile** brings the complete desktop-grade Dokkan Battle automation suite directly to your Android smartphone or tablet. By leveraging the power of **Termux (ARM64)** and our dedicated **`yoda-auth-helper.apk`** companion app, you can farm Dragon Stones, 100% Hidden Potential cards, Dokkan Awaken units, and clean your box on the go—with zero PC required!
 
 ### Key Highlights
 - **Direct on Phone**: Runs locally on Android ARM64 devices without root.
@@ -27,8 +27,8 @@ Before extracting Yoda Bot, install the three required Android components:
 > - [Termux:API on F-Droid](https://f-droid.org/packages/com.termux.api/) or [Termux:API GitHub Releases](https://github.com/termux/termux-api/releases)
 
 ### 2. Install `yoda-auth-helper.apk`
-1. Download **`yoda-auth-helper.apk`** from the Yoda Bot v2.0 Release page onto your Android device:
-   - 🔗 [Download yoda-auth-helper.apk](https://github.com/arthurliszkievich/yodabot-releases/releases/download/v2.0.0/yoda-auth-helper.apk)
+1. Download **`yoda-auth-helper.apk`** from the Yoda Bot v2.1.0 Release page onto your Android device:
+   - 🔗 [Download yoda-auth-helper.apk](https://github.com/arthurliszkievich/yodabot-releases/releases/download/v2.1.0/yoda-auth-helper.apk)
 2. Open the downloaded APK and tap **Install** (allow *"Install Unknown Apps"* in Android Settings if prompted).
 
 ### 🔍 Why is `yoda-auth-helper.apk` Needed?
@@ -51,11 +51,11 @@ On Android, Google OAuth2 redirects using a custom URI scheme (`com.googleuserco
    ```
    *(Tap **Allow** on the Android popup).*
 
-3. Unpack `yodabot_2.0_mobile.zip` into `~/yodabot`:
+3. Unpack `yodabot_2.1.0_mobile.zip` into `~/yodabot`:
    ```bash
    pkg install -y unzip
-   mkdir -p ~/yodabot && unzip -o ~/storage/downloads/yodabot_2.0_mobile.zip -d ~/yodabot
-   cd ~/yodabot/yodabot_2.0_mobile 2>/dev/null || cd ~/yodabot
+   mkdir -p ~/yodabot && unzip -o ~/storage/downloads/yodabot_2.1.0_mobile.zip -d ~/yodabot
+   cd ~/yodabot/yodabot_2.1.0_mobile 2>/dev/null || cd ~/yodabot
    ```
 
 4. Run the automated zero-friction mobile setup:
@@ -152,7 +152,7 @@ Yoda Bot provides a complete suite of automated commands for mobile farming, mis
 - **Q: Do I need to root my Android phone?**
   - **A:** Absolutely not. Termux and `yoda-auth-helper.apk` run in regular user space without any root permissions required.
 - **Q: What if Termux gives `bash: mobile_setup.sh: No such file or directory`?**
-  - **A:** Make sure you enter the extracted folder: `cd ~/yodabot/yodabot_2.0_mobile 2>/dev/null || cd ~/yodabot` and run `bash mobile_setup.sh`.
+  - **A:** Make sure you enter the extracted folder: `cd ~/yodabot/yodabot_2.1.0_mobile 2>/dev/null || cd ~/yodabot` and run `bash mobile_setup.sh`.
 - **Q: Does Yoda Bot keep running if I switch apps?**
   - **A:** Yes, as long as you tap **"Acquire Wakelock"** in the Termux notification.
 - **Q: Can I use both the CLI and Web GUI at the same time?**
